@@ -10,8 +10,7 @@ int main() {
     scanf("%f", &peso);
 
     imc = altura / (peso * altura);
-    printf("%f", imc);
+    printf (imc);
 
-    getch();
     return 0;
 }
